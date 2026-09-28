@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9</title>
+    <style>
+        body{
+            min-height: 200dvh;
+            background-color: #e1e1e1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            transition: all 1s;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: gray;
+            border-radius: 1rem;
+        }
+        .ativo{
+            background-color: rgba(128, 255, 0, 0.678);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

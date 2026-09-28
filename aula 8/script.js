@@ -1,6 +1,3 @@
-import gsap from "gsap"; 
-import { ScrollTrigger } from "gsap/ScrollTrigger"; 
-
 gsap.registerPlugin(ScrollTrigger);
 console.log(5);
 gsap.from(".box", {
