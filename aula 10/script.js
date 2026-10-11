@@ -18,5 +18,5 @@ onStart: -> Executa uma ação ao início de uma animação.
 
 onUpdate: -> Executa uma ação durante a animação. 
 
-onUpdate: -> Executa uma ação quando termina a animação. 
+onComplete: -> Executa uma ação quando termina a animação. 
  */
